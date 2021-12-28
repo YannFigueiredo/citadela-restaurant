@@ -1,0 +1,36 @@
+body, html{
+    width: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+img{
+   max-width: 100%; 
+}
+
+.main-header{
+    border: 1px solid red;
+}
+
+.titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.titulo:hover, .titulo:visited{
+    color: white;
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.6);
+}

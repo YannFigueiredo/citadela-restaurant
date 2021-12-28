@@ -1,0 +1,46 @@
+/*HEADER*/
+.logo{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.logo div{
+    height: 40px;
+    width: 50px;
+}
+
+.logo div img{
+    width: 100%;
+    height: 100%;
+}
+
+.campo-titulo{
+    line-height: 1.3;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-menu{
+ 
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    overflow: hidden;
+}
+
+.menu-header li{
+    list-style: none;
+}
+
+.btn-menu{
+    border: 1px solid red;
+    font-size: 1.3em;
+    text-align: right;
+}
