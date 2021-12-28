@@ -26,10 +26,6 @@
  
 }
 
-.menu-fechado{
-    display: none;
-}
-
 .menu-header{
     position: absolute;
     top: 0;
@@ -38,6 +34,8 @@
     background-color: white;
     width: 100%;
     height: 100%;
+    z-index: 9999;
+    display: none;
 }
 
 .menu-header li{
@@ -72,9 +70,59 @@
 
 .btn-menu-aberto{
     background-color: rgb(240, 47, 47);
-    padding: 5px 25px;
+    padding: 5px 22px;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 9999;
+}
+
+/*Queries do Header*/
+@media screen and (min-width: 767px){
+    .logo div{
+        height: 60px;
+        width: 70px;
+    }
+
+    .titulo{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1199px){
+    .menu-header{
+        position: static;
+        padding-top: 0;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu-header li{
+        list-style: none;
+        font-size: 1em;
+        margin-bottom: 0;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .menu-header li a{
+        color: rgba(255, 255, 255, 0.7);
+        display: inline-block;
+        padding: 5px 15px;
+    }
+
+    .menu-header li a:hover{
+        background-color: rgb(117, 117, 117);
+        color: white;
+    }
+
+    .menu-header li a.ativo{
+        color: white;
+    }
+
+    .btn-menu{
+        display: none;
+    }
 }

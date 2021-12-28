@@ -5,7 +5,7 @@ function Menu(config){
     var _this = this;
 
     _this.btn.addEventListener('click', function(){
-        if(_this.container.classList.contains('menu-fechado')){
+        if(!_this.btn.classList.contains('btn-menu-aberto')){
             abrirMenu();
         }else{
             fecharMenu();
@@ -13,14 +13,14 @@ function Menu(config){
     });
 
     function abrirMenu(){
-        _this.container.classList.remove('menu-fechado');
+        _this.container.style.display = 'block';
         _this.btn.classList.add('btn-menu-aberto');
         _this.btn.querySelector('i').classList.remove('fa-bars');
         _this.btn.querySelector('i').classList.add('fa-times');
     }
 
     function fecharMenu(){
-        _this.container.classList.add('menu-fechado');
+        _this.container.style.display = 'none';
         _this.btn.classList.remove('btn-menu-aberto');
         _this.btn.querySelector('i').classList.remove('fa-times');
         _this.btn.querySelector('i').classList.add('fa-bars');
