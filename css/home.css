@@ -126,3 +126,18 @@
         display: none;
     }
 }
+
+/*APRESENTAÇÃO*/
+.apresentacao{
+    background-image: url('../img/bg_apresentacao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    padding-bottom: 25px;
+}
+
+.container-img-apresentacao{
+    margin-top: 80px;
+}
