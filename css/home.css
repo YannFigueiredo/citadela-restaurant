@@ -155,6 +155,10 @@
         justify-content: center;
     }
 
+    .txt-apresentacao{
+        font-size: 3.8em;
+    }
+
     .btn-vermelho{
         width: 250px;
     }
@@ -162,4 +166,28 @@
     .container-img-apresentacao{
         margin-top: 40px;
     }
+}
+
+/*PRATOS*/
+.pratos{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.pratos .container-img{
+    margin-bottom: 20px;
+}
+
+.pratos .container-img img{
+    width: 100%;
+}
+
+.pratos .container-txt p{
+    font-family: 'Roboto';
+}
+
+.pratos article{
+    margin-top: 20px;
 }
