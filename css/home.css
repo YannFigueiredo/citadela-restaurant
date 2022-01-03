@@ -141,3 +141,25 @@
 .container-img-apresentacao{
     margin-top: 80px;
 }
+
+@media screen and (min-width: 575px){
+    .apresentacao{
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 767px){
+    .container-txt-apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn-vermelho{
+        width: 250px;
+    }
+
+    .container-img-apresentacao{
+        margin-top: 40px;
+    }
+}

@@ -17,6 +17,7 @@ function Menu(config){
         _this.btn.classList.add('btn-menu-aberto');
         _this.btn.querySelector('i').classList.remove('fa-bars');
         _this.btn.querySelector('i').classList.add('fa-times');
+        document.querySelector('body').style.overflow = 'hidden';
     }
 
     function fecharMenu(){
@@ -24,5 +25,6 @@ function Menu(config){
         _this.btn.classList.remove('btn-menu-aberto');
         _this.btn.querySelector('i').classList.remove('fa-times');
         _this.btn.querySelector('i').classList.add('fa-bars');
+        document.querySelector('body').style.overflow = 'auto'
     }
 }
