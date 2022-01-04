@@ -159,12 +159,18 @@
         font-size: 3.8em;
     }
 
-    .btn-vermelho{
+    .apresentacao .btn-vermelho{
         width: 250px;
     }
 
     .container-img-apresentacao{
         margin-top: 40px;
+    }
+
+    .container-img-apresentacao img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
     }
 }
 
