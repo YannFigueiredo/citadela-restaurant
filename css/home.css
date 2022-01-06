@@ -27,10 +27,6 @@
     justify-content: center;
 }
 
-.container-menu{
- 
-}
-
 .menu-header{
     position: absolute;
     top: 0;
@@ -99,7 +95,7 @@
         position: static;
         padding-top: 0;
         background-color: transparent;
-        display: flex;
+        display: flex !important;
         justify-content: space-between;
         align-items: center;
     }
@@ -140,7 +136,7 @@
     background-position: center top;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
-    padding-bottom: 25px;
+    
 }
 
 .container-img-apresentacao{

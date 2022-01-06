@@ -12,6 +12,11 @@ function Menu(config){
         }
     });
 
+    /*window.addEventListener('resize', function(){
+        if(window.outerWidth >= 1199)
+            _this.container.style.display ='flex';
+    });*/
+
     function abrirMenu(){
         _this.container.style.display = 'block';
         _this.btn.classList.add('btn-menu-aberto');
