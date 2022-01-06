@@ -1,4 +1,9 @@
 /*HEADER*/
+.main-header .row{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -217,6 +222,8 @@
 /*FOOTER*/
 .contato div{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .contato div img{
@@ -277,12 +284,42 @@
 /*MODAL*/
 .modal-amostras{
     z-index: 9999;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.modal .container-img-modal{
-    
+.modal-amostras .container-img-modal{
+    width: 300px;
+}
+
+.modal-amostras .container-img-modal img{
+    width: 100%;
+}
+
+.btn-anterior, .btn-proximo{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.modal-fechado{
+    display: none;
+}
+
+@media screen and (min-width: 575px){
+    .modal-amostras .container-img-modal{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 767px){
+    .modal-amostras .container-img-modal{
+        width: 580px;
+    }
 }
