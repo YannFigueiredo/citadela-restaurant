@@ -219,7 +219,7 @@
 .contato div{
     margin-bottom: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .contato div img{
@@ -274,6 +274,10 @@
 @media screen and (min-width: 767px){
     .contato div img{
         width: 40px;
+    }
+
+    .contato div{
+        justify-content: center;
     }
 }
 
